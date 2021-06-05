@@ -6,3 +6,5 @@ numeros.o: numeros.s
 	as -g -mfpu=vfpv2 -o  $@ $+
 clean:
 	rm -vf numeros *.o
+
+
